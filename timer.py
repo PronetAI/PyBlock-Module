@@ -1,6 +1,5 @@
 import time
 Time = int(input("Set a timer here in seconds: "))
-
 for i in range(Time, 0, -1):
     print(i)
     time.sleep(1)
